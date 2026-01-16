@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-box {
+  width: 380px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border: none;
+  background: transparent;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.desc {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #ff512f;
+}
+
+.password {
+  position: relative;
+}
+
+.password i {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #777;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.options a {
+  color: #ff512f;
+  text-decoration: none;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(to right, #ff512f, #f09819);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup {
+  text-align: center;
+  font-size: 14px;
+  margin: 15px 0;
+}
+
+.signup a {
+  color: #ff512f;
+  text-decoration: none;
+}
+
+.or {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  margin: 15px 0;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.socials i {
+  font-size: 22px;
+  color: #555;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.socials .bxl-facebook:hover {
+  color: #1877f2;
+  transform: scale(1.2);
+}
+
+.socials .bxl-google:hover {
+  color: #db4437;
+  transform: scale(1.2);
+}
+
+.socials .bxl-twitter:hover {
+  color: #1da1f2;
+  transform: scale(1.2);
+}
+
+.socials .bxl-linkedin:hover {
+  color: #0a66c2;
+  transform: scale(1.2);
+}
