@@ -244,12 +244,12 @@ small {
     font-size: 12px;
 }
 
-.newsletter .input-box {
+.newsletter4 .input-box {
     display: flex;
     margin: 10px 0;
 }
 
-.newsletter input {
+.newsletter4 input {
     flex: 1;
     padding: 8px;
     border: none;
@@ -258,7 +258,7 @@ small {
     color: #fff;
 }
 
-.newsletter button {
+.newsletter4 button {
     background: #2563eb;
     border: none;
     color: #fff;
