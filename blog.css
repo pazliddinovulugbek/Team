@@ -1,0 +1,186 @@
+.view_carts {
+    display: flex;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.myday {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #787A80;
+    font-weight: 600;
+}
+
+.article {
+    display: flex;
+    margin-top: 50px;
+}
+
+.article .hrvid {
+    margin-left: 50px;
+}
+
+.hrvid {
+    width: 500px;
+}
+
+.view_cartss {
+    display: flex;
+    margin-top: 50px;
+    gap: 40px;
+}
+
+.titless h1 {
+    width: 705px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #1E212C;
+}
+
+.titless p {
+    width: 705px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #424551;
+}
+
+.titlesa h1 {
+    width: 490px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #1E212C;
+}
+
+.titlesa p {
+    width: 500px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #424551;
+}
+
+.titles h1 {
+    width: 390px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #1E212C;
+}
+
+.titles p {
+    width: 400px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #424551;
+}
+
+.titles a {
+    font-weight: 700;
+    font-size: 16px;
+    color: #1E212C;
+}
+
+.titless a {
+    font-weight: 700;
+    font-size: 16px;
+    color: #1E212C;
+}
+
+.titlesa a {
+    font-weight: 700;
+    font-size: 16px;
+    color: #1E212C;
+}
+
+.hrvid img {
+    height: 300px;
+    width: 500px;
+}
+
+a {
+    text-decoration: none;
+    color: #FF5728;
+    transition: all 1s;
+}
+
+a:hover {
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    background: #F4F5F6;
+    height: 454px;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.subs h1 {
+    width: 600px;
+    height: 84px;
+    font-weight: 900;
+    font-size: 32px;
+    vertical-align: middle;
+    color: #1E212C;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 52px;
+}
+
+.btns input {
+    width: 400px;
+    height: 50px;
+    border: 1px solid #D0D2DA;
+    border-radius: 8px 8px 8px 8px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #424551;
+    margin-top: 50px;
+}
+
+.btns button {
+    width: 180px;
+    height: 52px;
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border-radius: 8px 8px 8px 8px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.checkbox {
+    height: 100px;
+    margin-top: 20px;
+}
+
+.checkbox input {
+    margin-top: 40px;
+}
+
+.checkbox input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #FF5728;
+}
+
+.checkbox span {
+    font-size: 14px;
+    color: #787A80;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: 4px;
+}
+
+.img_news {
+    width: 400px;
+    height: 350px;
+}
