@@ -379,7 +379,9 @@ nav ul:nth-child(2) li h2 {
     font-weight: 500;
     margin-top: 24px;
 }
-
+.card-olti{
+    width: 505px;
+}
 .cart-besh {
     display: flex;
     align-items: center;
