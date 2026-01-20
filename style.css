@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background: rgba(245, 150, 237, 0.634);
+    height: 700px;
+}
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+}
+
+
+nav ul:nth-child(1) h1{
+    font-size: 33px;
+    font-family: sans-serif;
+    color: #1E212C;
+    font-weight: 700;
+}
+
+nav ul:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+nav ul li a{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #060608;
+}
+
+
+nav ul:nth-child(2){
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+nav ul:nth-child(2) li button{
+    width: 207px;
+    height: 52px;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+    background: #FF3F3A;
+    cursor: pointer;
+}
+
+
+nav ul:nth-child(2) li h2{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #424551;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+}
+
+main h1{
+    width: 450px;
+    font-size: 60px;
+    margin-left: 70px;
+}   
+
+.btn-p button{
+   
+    gap: 30px;
+    width: 180px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 30px;
+    background: rgba(255, 63, 58, 1);
+    margin-left: 70px;
+    cursor: pointer;
+    border: none;
+    color:wheat;
+}
+
+.one-cart{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.cart-one{
+    align-items: center;
+}
+
+.two-cart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+    background: white;
+    height: 700px;
+}
+
+.two-cart p{
+width: 440px;
+margin-top: 20px;
+font-size: 20px;
+
+}
+
+.two-cart h1{
+    font-size: 40px;
+}
+
+.two-cart button{
+    width: 130px;
+    height: 35px;
+    border-radius: 4px;
+    border: none;
+    background: rgba(255, 63, 58, 1);
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.cart-two{
+    margin-top: 150px;
+}
+.two-cart img{
+    width: 650px;
+    margin-top: -10px;
+}
+.q h1{
+    font-size: 40px;
+}
+.q{
+    background: white;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.q button{
+    width: 140px;
+    height: 35px;
+    background: none;
+    border: 1px solid rgb(255, 123, 0) ;
+    color:rgba(255, 63, 58, 1);
+    cursor: pointer;
+}
+
+.qq{
+    margin-top: 120px;
+}
+
+.three-cart{
+    display: flex;
+    background: white;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+
+.a{
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 650px;
+    border-radius: 4px;
+    justify-content: space-around;
+     margin-top: 30px;
+}
+.a img{
+    margin-right: 140px;
+    width: 180px;
+}
+
+.a p{
+    margin-top: 10px;
+}
+.w{
+    background: white;
+    padding-left: 600px;
+    padding-top: 120px;
+    font-size: 20px;
+}
+.w h3{
+    padding-left: 113px;
+}
+
+.four-cart{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    background: white;
+    font-size: 20px;
+   padding-top: 40px;
+}
+
+.four-cart button{
+    background: none;
+    border: none;
+    border: 2px solid rgba(255, 63, 58, 1);
+    width: 200px;
+    height: 30px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.five-cart{
+    display: flex;
+    background: white;
+    padding-top: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+.five-cart p{
+    width: 590px;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.sic-cart{
+    display: flex;
+}
+
+.s{
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    width: 1150px;
+    margin-left:120px;
+    height: 120px;
+    align-items: center;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+.s h2{
+   font-size: 24px
+}
+.s h1{
+    color: rgba(255, 63, 58, 1);
+    font-size: 50px
+}
+
+.s button{
+    width: 120px;
+    height: 30px;
+    background: none;
+    border: 2px solid rgba(255, 63, 58, 1);
+    cursor: pointer;
+}
+
+.d{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    margin-top: 40px;
+}
+.d button{
+    width: 190px;
+    height: 42px;
+    background: rgba(255, 63, 58, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.c{
+    margin-left: 550px;
+    margin-top: 70px;
+}
+
+
+.seven-cart{
+    display: flex;
+    justify-content: center;
+    background: white;
+    margin-top: 70px;
+    padding-top: 100px;
+    align-items: center;
+}
+
+.seven-cart h1{
+    width :380px;
+    font-size: 45px;
+}
+
+.seven-cart p{
+    width: 440px;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.h{
+    display: flex;
+    gap: 30px;
+}
+
+
+.eight-cart{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    background: rgba(244, 245, 246, 1);
+    padding-top: 70px;
+}
+
+.eight-cart h2{
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.eight-cart p{
+    margin-left: 50px;
+}
+
+.sss{
+    background: rgba(244, 245, 246, 1);
+    padding-top: 50px;
+    padding-left: 240px;
+    font-size: 22px;
+}
+
+.on-cart{
+  background: rgba(244, 245, 246, 1);
+  height: 400px;
+}
+
+.crt{
+    background: white;
+    width: 900px;
+    border-radius: 5px;
+    margin-left: 250px;
+    height: 250px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    padding-top: 60px;
+}
+
+
+.crt p{
+    width: 750px;
+    padding-left: 170px;
+}
+
+.qqqq{
+    display: flex;
+    align-items:  center;
+    padding-left: 160px;
+    padding-top: 20px;
+
+}
+
+.qqqq img{
+    width:60px;
+}
+
+.qqqq h2 {
+  margin-left: 20px;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.qqqq h3{
+    margin-left: 20px;
+      font-family: sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  padding-top: 2px;
+}
+
+
+
+.bir-cart{
+    background: rgba(244, 245, 246, 1);
+    height: 300px;
+    padding-left: 520px;
+    padding-top: 160px;
+}
+
+.bir-cart h2{
+    font-size: 40px;
+}
+
+
+
+.bir-cart h3{
+    font-size: 18px;
+    padding-left: 130px;
+}
+
+
+.dxx{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    background: white;
+    
+    justify-content: space-around;
+}
+
+.dxx button{
+    background: rgba(255, 63, 58, 1);
+    width: 120px;
+    border: none;
+    height: 40px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.ppx h2{
+    font-size: 42px;
+}
+
+
+
+.kino img{
+    width: 320px;
+}
+
+.on-ikki-cart{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background: white;
+    height: 550px;
+}
+
+.kino h2{
+    width: 330px;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.kino p{
+    width: 300px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.ll{
+    display: flex;
+    gap: 10px;
+}
+
+.ll input{
+    width: 450px;
+    padding-left: 20px;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    margin-top: 30px;
+}
+
+.cartt{
+    margin-left: 450px;
+    padding-top: 100px;
+}
+
+
+.smd{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.smd img{
+    width: 230px;
+}
+
+
+.cartt h1{
+   font-size: 40px;
+   font-family: sans-serif;
+}
+
+.ll button{
+    width: 150px;
+    height: 35px;
+    margin-top: 30px;
+    border: none;
+    background: rgba(255, 63, 58, 1);
+    color: white;
+    cursor: pointer;
+}
+
+.cartt h3{
+    margin-left: 210px;
+  
+}
+
+.fof-cart{
+    margin-top: 100px;
+}
