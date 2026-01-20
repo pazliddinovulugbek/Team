@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./contact.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -14,7 +16,7 @@
               <h1 href="/">Create</h1>
             </li>
             <li>
-              <a href="./About.html">About US</a>
+             <a href="../About.html">About US</a>
             </li>
             <li>
               <a href="./Course.html">Courses</a>
@@ -34,17 +36,71 @@
               <button>Get consultation</button>
             </li>
             <li>
+
+              <h2><a href="signup.html">Log in / Register</a></h2>
+
               <h2><a href="./signin.html">Log in </a>/<a href="./signup.html">Register</a></h2>
+
             </li>
           </ul>
         </nav>
       </header>
-    <div class="main-left">
-        <h4>Contact info</h4>
-        <h1>Get in touch</h1>
-        <img src="assect/Chat.png" alt="">
-        <h2>    </h2>
-        
+<section class="contact">
+  <div class="contact-wrap">
+
+    <div class="left">
+      <h6>CONTACT INFO</h6>
+      <h2>Get in touch</h2>
+
+      <ul>
+        <li>hello@creax.com</li>
+        <li>(405) 555-0128</li>
+        <li>2464 Royal Ln. Mesa, New Jersey 45463, USA</li>
+      </ul>
+
+      <div class="socials">
+        <i class="bx bxl-facebook"></i>
+        <i class="bx bxl-twitter"></i>
+        <i class="bx bxl-youtube"></i>
+        <i class="bx bxl-instagram"></i>
+        <i class="bx bxl-linkedin"></i>
+      </div>
+
+      <img src="blog/assa.png " class="illus">
     </div>
+
+    <div class="right">
+      <div class="map">
+        <iframe src="https://www.google.com/maps?q=Lakewood,USA&output=embed"></iframe>
+      </div>
+
+      <h6>ANY QUESTIONS?</h6>
+      <h2>Drop us a line</h2>
+
+      <form>
+        <div class="row">
+          <input type="text" placeholder="First name">
+          <input type="text" placeholder="Last name">
+        </div>
+
+        <div class="row">
+          <input type="email" placeholder="Email">
+          <input type="text" placeholder="Phone">
+        </div>
+
+        <textarea placeholder="Message"></textarea>
+
+        <label class="check">
+          <input type="checkbox">
+          I agree to receive communications
+        </label>
+
+        <button>Send message</button>
+      </form>
+    </div>
+
+  </div>
+</section>
+
 </body>
 </html>
