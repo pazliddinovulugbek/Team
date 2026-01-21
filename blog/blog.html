@@ -198,7 +198,8 @@
                 </div>
             </div>
         </div>
-        <div id="ones" class="text-center mt-[80px] mr-[80px] mb-[80px] grid grid-cols-5  md:grid-cols-4 lg:grid-cols-6">
+        <div id="ones"
+            class="text-center mt-[80px] mr-[80px] mb-[80px] grid grid-cols-5  md:grid-cols-4 lg:grid-cols-6">
             <a class="text-[20px] ml-[20px]" href="/">1</a>
             <a class="text-[20px] ml-[20px]" href="/">2</a>
             <a class="text-[20px] ml-[20px]" href="/">3</a>
@@ -213,14 +214,31 @@
         <div class="subs">
             <h1>Want to get the best articles weekly?
                 Subscribe to our newsletter!</h1>
-            <div class="btns">
-                <input type="email" name="email" required placeholder="Your working email">
-                <button type="submit">Subscribe</button>
-            </div>
-            <div class="checkbox"><input type="checkbox" name="" id=""><span>I agree to receive communications from
-                    Createx Online School</span></div>
+            <form id="newsletterForm">
+                <div class="btns">
+                    <input type="email" name="email" id="emailInput" required placeholder="Your working email">
+                    <button type="submit">Subscribe</button>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" name="agree" id="agreeCheckbox"><span>I agree to receive communications from
+                        Createx Online School</span>
+                </div>
+            </form>
         </div>
     </div>
+    <div id="toast" style="
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #4CAF50;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    display: none;
+    z-index: 1000;
+    font-family: sans-serif;
+"></div>
     <footer class="footer">
         <div class="container">
             <div class="footer-grid">
@@ -283,6 +301,7 @@
 
         </div>
     </footer>
+     <script src="./email.js"></script>
 </body>
 
 </html>
