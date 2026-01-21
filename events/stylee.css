@@ -222,8 +222,17 @@ nav ul:nth-child(2) li h2 {
 
 .fuu {
     margin-top: 40px;
+    display: flex;
+    gap: 30px;
 }
-
+.ks{
+    gap: 10px;
+   display: flex;
+   align-items: center;
+}
+.cvc input{
+    margin-top: 24px;
+}
 .lll {
     margin-top: 40px;
 }
@@ -350,14 +359,16 @@ nav ul:nth-child(2) li h2 {
 .card-olti input {
     width: 495px;
     height: 52px;
-    margin-top: 24px;
+    margin-top:10px;
+    padding: 15px;
 
 }
 
-.card-olti label {
+.card-olti h3 {
     font-family: sans-serif;
     font-size: 15px;
     font-weight: 400;
+margin-top: 20px;
 }
 
 .card-olti button {
@@ -379,7 +390,9 @@ nav ul:nth-child(2) li h2 {
     font-weight: 500;
     margin-top: 24px;
 }
-
+.card-olti{
+    width: 505px;
+}
 .cart-besh {
     display: flex;
     align-items: center;
@@ -441,16 +454,18 @@ nav ul:nth-child(2) li h2 {
 }
 
 .cart-olti {
-    width: 1350px;
+    width: 103%;
+    max-width: 1580px;
     height: 687px;
+    margin-left: -20px;
     background: #E5E8ED;
 }
 
-.kkk {
+ .kkk {
     margin-left: 30px;
     margin-top: 100px;
     padding-top: 80px;
-}
+} 
 
 .jjj {
     display: flex;
@@ -486,6 +501,8 @@ nav ul:nth-child(2) li h2 {
     background: linear-gradient(90deg, #0f172a, #1e293b);
     color: #cbd5e1;
     padding: 60px 0 30px;
+    width: 103%;
+    margin-left:-20px;
 }
 
 .container {
