@@ -725,4 +725,19 @@ small {
     .www button{
         margin-top: 20px;
     }
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .footer {
+        background: linear-gradient(90deg, #0f172a, #1e293b);
+        color: #cbd5e1;
+        padding: 60px 0 30px;
+        margin-left:-20px;
+        width: 400px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
 }
