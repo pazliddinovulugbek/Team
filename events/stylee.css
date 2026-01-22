@@ -225,14 +225,17 @@ nav ul:nth-child(2) li h2 {
     display: flex;
     gap: 30px;
 }
-.ks{
+
+.ks {
     gap: 10px;
-   display: flex;
-   align-items: center;
+    display: flex;
+    align-items: center;
 }
-.cvc input{
+
+.cvc input {
     margin-top: 24px;
 }
+
 .lll {
     margin-top: 40px;
 }
@@ -359,7 +362,7 @@ nav ul:nth-child(2) li h2 {
 .card-olti input {
     width: 495px;
     height: 52px;
-    margin-top:10px;
+    margin-top: 10px;
     padding: 15px;
 
 }
@@ -368,7 +371,7 @@ nav ul:nth-child(2) li h2 {
     font-family: sans-serif;
     font-size: 15px;
     font-weight: 400;
-margin-top: 20px;
+    margin-top: 20px;
 }
 
 .card-olti button {
@@ -390,9 +393,11 @@ margin-top: 20px;
     font-weight: 500;
     margin-top: 24px;
 }
-.card-olti{
+
+.card-olti {
     width: 505px;
 }
+
 .cart-besh {
     display: flex;
     align-items: center;
@@ -461,11 +466,11 @@ margin-top: 20px;
     background: #E5E8ED;
 }
 
- .kkk {
+.kkk {
     margin-left: 30px;
     margin-top: 100px;
     padding-top: 80px;
-} 
+}
 
 .jjj {
     display: flex;
@@ -502,7 +507,7 @@ margin-top: 20px;
     color: #cbd5e1;
     padding: 60px 0 30px;
     width: 103%;
-    margin-left:-20px;
+    margin-left: -20px;
 }
 
 .container {
@@ -592,4 +597,147 @@ small {
 .footer-bottom a {
     color: #60a5fa;
     text-decoration: none;
+}
+
+@media only screen and (max-width:400px) {
+    .class h1 {
+        font-size: 26px;
+        width: 300px;
+    }
+
+    .cart {
+        display: block;
+    }
+
+    .card h3 {
+        width: 330px;
+    }
+
+    .cart p {
+        width: 300px;
+    }
+
+    .card-bir {
+        width: 350px;
+    }
+
+    .card-bir button {
+        width: 280px;
+    }
+
+    .cart-ikki {
+        display: block;
+    }
+
+    .yyy p {
+        width: 340px;
+    }
+
+    .card-ikki img {
+        width: 340px;
+    }
+
+    .cart-uch {
+        display: block;
+    }
+
+    .bbb p {
+        width: 340px;
+    }
+
+    .card-uch h1 {
+        font-size: 34px;
+        width: 300px;
+    }
+
+    .cart-tort {
+        display: block;
+        width: 340px;
+        height: 700px;
+        padding: 10px;
+    }
+
+    .card-besh h1 {
+        font-size: 34px;
+        width: 340px;
+    }
+
+    .ppp input {
+        width: 270px;
+    }
+
+    .ttt {
+        display: block;
+    }
+
+    .ooo button {
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    .cart-besh {
+        display: block;
+    }
+
+    .card-olti input {
+        width: 340px;
+    }
+
+    .card-olti button {
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    .card-olti p {
+        width: 340px;
+    }
+
+    .card-yeti img {
+        width: 340px;
+    }
+    .cart-olti{
+        width: 400px;
+             height: 1250px;
+    }
+    .jjj {
+        display: block;
+   
+    }
+    .fff{
+        width: 330px;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .fff p{
+        width: 300px;
+    }
+    .fff button{
+        width: 280px;
+    }
+    .footer{
+        margin-top: 200px;
+    }
+    .ggg{
+        display: block;
+        padding: 56px;
+    }
+    .www button{
+        margin-top: 20px;
+    }
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .footer {
+        background: linear-gradient(90deg, #0f172a, #1e293b);
+        color: #cbd5e1;
+        padding: 60px 0 30px;
+        margin-left:-20px;
+        width: 400px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
 }

@@ -226,3 +226,92 @@ button{
   padding:14px 40px;
   border-radius:6px;
 }
+@media only screen and (max-width: 400px) {
+
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+    gap: 10px;
+  }
+
+  nav ul:nth-child(1),
+  nav ul:nth-child(2) {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  nav ul:nth-child(2) li button {
+    width: 160px;
+    height: 45px;
+    font-size: 14px;
+  }
+
+  .contact {
+    padding: 40px 15px;
+  }
+
+  .contact-wrap {
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .left h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .left h6 {
+    text-align: center;
+  }
+
+  .left ul li {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .socials {
+    display: flex;
+    justify-content: center;
+  }
+
+  .illus {
+    max-width: 260px;
+    margin: 30px auto 0;
+    display: block;
+  }
+
+  .map iframe {
+    height: 200px;
+  }
+
+  .right h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .right h6 {
+    text-align: center;
+  }
+
+  form .row {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  textarea {
+    height: 100px;
+  }
+
+  .check {
+    font-size: 13px;
+    align-items: flex-start;
+  }
+
+  button {
+    width: 100%;
+    padding: 14px 0;
+  }
+}
