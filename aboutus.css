@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main section:nth-child(1) h4 {
+    width: 87px;
+    height: 24px;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+main section:nth-child(1) h1 {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    margin-top: 24px;
+}
+
+main section:nth-child(1) h3 {
+    font-family: Lato;
+    width: 600px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    margin-top: 24px;
+}
+
+main section:nth-child(1) p {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    width: 600px;
+    margin-top: 24px;
+}
+
+main section:nth-child(1) button {
+    width: 192px;
+    height: 52px;
+    border-radius: 4px;
+    background: hsla(2, 100%, 61%, 1);
+    color: white;
+    border: none;
+    margin-top: 60px;
+}
+
+.div {
+    margin-top: 180px;
+    margin-left: 70px;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 32px;
+}
+
+.img .img_two h3 {
+    padding: 5px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.text_one h3 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.text_two h2 {
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+}
+
+.text_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.text_head .text_1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.text_head .text_1 p {
+    width: 240px;
+    margin-top: 15px;
+}
+
+.text_head .text_1 h3 {
+    margin-top: 15px;
+}
+
+.text_head .text_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.text_head .text_2 p {
+    width: 240px;
+    margin-top: 15px;
+}
+
+.text_head .text_2 h3 {
+    margin-top: 15px;
+}
+
+.text_head .text_3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.text_head .text_3 p {
+    width: 240px;
+    margin-top: 15px;
+}
+
+.text_head .text_3 h3 {
+    margin-top: 15px;
+}
+
+.text_head .text_4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.text_head .text_4 p {
+    width: 240px;
+    margin-top: 15px;
+}
+
+.text_head .text_4 h3 {
+    margin-top: 15px;
+}
+
+.rasm {
+    margin-top: 100px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container .h1 h4 {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.container .h1 h1 {
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+}
+
+.container .h1 h5 {
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 150%;
+    margin-top: 30px;
+}
+
+.container .h1 h2 {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.container .h1 p {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    width: 446px;
+    color: hsla(225, 3%, 49%, 1);
+}
+
+.asosiy {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.asosiy_two {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.icon h3 {
+    margin-left: 40%;
+}
+
+.icon h1 {
+    margin-left: 39.5%;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.one {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.one_1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.one_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.latest {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 40px;
+}
+
+.latest button {
+    width: 159px;
+    height: 52px;
+    border-radius: 4px;
+    background-color: hsla(2, 100%, 61%, 1);
+    border: none;
+    color: white;
+}
+
+.podcast {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.podcast .podcast_one h2 {
+    width: 390px;
+    height: 60px;
+    margin-top: 5px;
+}
+
+.podcast .podcast_one p {
+    width: 390px;
+    height: 52px;
+    margin-top: 5px;
+}
+
+.podcast .podcast_two h2 {
+    width: 390px;
+    height: 60px;
+    margin-top: 5px;
+}
+
+.podcast .podcast_two p {
+    width: 390px;
+    height: 52px;
+    margin-top: 5px;
+}
+
+.podcast .podcast_three h2 {
+    width: 390px;
+    height: 60px;
+    margin-top: 5px;
+}
+
+.podcast .podcast_three p {
+    width: 390px;
+    height: 52px;
+    margin-top: 5px;
+}
+
+.miss {
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    background: rgb(228, 165, 129);
+    height: 564px;
+}
+
+.miss h3 {
+    width: 196px;
+    height: 24px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+}
+.miss h1{
+    width: 810px;
+    height: 120px;
+    font-family: sans-serif;
+font-weight: 600;
+font-size: 46px;
+line-height: 130%;
+text-align: center;
+margin-top: 8px;
+}
+.miss .input{
+    display: flex;
+    gap: 24px;
+}
+.miss .input input{
+    width: 422px;
+    height: 52px;
+    border-radius: 4px;
+    border: 1px;
+    color: hsla(225, 6%, 62%, 1);
+}
+.miss .input button{
+    width: 154px;
+    height: 52px;
+    border-radius: 4px;
+    background-color: hsla(2, 100%, 61%, 1);
+    color: white;
+    border: none;
+}
