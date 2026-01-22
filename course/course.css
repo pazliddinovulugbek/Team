@@ -5,9 +5,6 @@
     list-style: none;
     text-decoration: none;
 }
-body{
-    padding: 20px;
-}
 
 
 
@@ -232,45 +229,51 @@ letter-spacing: 0%;
 .yourbig{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-left: 70px;
 }
 .your{
     margin-top: 150px;
     padding-left: 30px;
+    word-spacing: 1px;
 }
 .your h5{
     margin-bottom: 20px;
     font-family: sans-serif;
 font-weight: 700;
-font-size: 16px;
+font-size: 13px;
 line-height: 150%;
 letter-spacing: 1px;
 text-transform: uppercase;
+word-spacing: 10px;
 
 }
 .your h2{
     margin-bottom: 20px;
     font-family: sans-serif;
 font-weight: 900;
-font-size: 32px;
+font-size: 25px;
 line-height: 130%;
 letter-spacing: 0%;
+
+word-spacing: 10px;
 
 }
 .your p{
     font-family: sans-serif;
 font-weight: 400;
-font-size: 16px;
+font-size: 13px;
 line-height: 160%;
 letter-spacing: 0%;
 
 }
 .your img{
     margin-bottom: -60px;
+    gap: 15px;
 }
 
 .dobig {
-    width: 100%; 
-    max-width: 1350px;
+    width: 100%;
+    max-width: 14000px;
     height: 564px;
     background: #F75E05; 
     margin: 0 auto; 
@@ -281,6 +284,11 @@ letter-spacing: 0%;
     text-align: center;
     border-radius: 4px;
     overflow: hidden;
+}
+.yourr img{
+    width: 705px;
+    height: 500px;
+    margin-left: -130px;
 }
 
 .dotext h5 {
@@ -410,4 +418,70 @@ small {
 .footer-bottom a {
   color: #60a5fa;
   text-decoration: none;
+}
+
+@media screen and (max-width: 400px){
+    .containerbtn{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .arrow{
+        display: none;
+    }
+    
+   .yourbig {
+        display: grid;
+        grid-template-columns: 1fr; 
+        gap: 30px;
+        padding: 10px;
+    }
+    
+ .vv{
+    display: none;
+ }
+.yourr img{
+    width: 400px;
+    margin-left: 2px;
+}
+.dobig{
+    width: 390px;
+}    
+.dotrext h5{
+    font-size: 11px;
+}
+.dotext h3{
+    font-size: 15px;
+}
+.dobig form{
+    display: block  ;
+    
+}
+.dobig button{
+    margin-top: 20px;
+}
+.containerbtn {
+        width: 100%; 
+        flex-wrap: wrap; 
+        gap: 20px; 
+        padding: 10px;
+    }
+
+    .btn {
+        flex-basis: calc(50% - 20px); 
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn button {
+        width: 100%; 
+        max-width: 120px;
+    }
+
+
+  
 }
