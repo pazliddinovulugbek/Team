@@ -703,6 +703,11 @@ small {
         
      }
 
+     .d button{
+        width: 130px;
+        margin-left: -20px;
+     }
+
      .a{
         width: 400px;
      }
@@ -718,13 +723,18 @@ small {
         
      }
 
+     .w{
+        width: 100px;
+     }
+
      .w h3{
         margin-left: -580px;
-        width: 400px;
+        
     
      }
      .w h1{
         margin-left: -570px;
+        width: 400px;
        
      }
 
@@ -762,5 +772,171 @@ small {
         width: 400px;
      }
 
+     .c{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 54px;
+     }
+
+     .s{
+        width: 400px;
+       margin-left: 0px;
+     }
+
+     .s h2{
+        width:120px;
+        font-size: 15px;
+     }
+
+     .seven-cart{
+        display: grid;
+        grid-template-columns: 1fr;
+     }
+
+     .wwwww img{
+  width: 400px;
+  margin-left: 20px;
+  margin-top:50px;
+     }
+
+     .seven-cart h1{
+        width: 400px;
+        margin-left: 25px;
+     }  
+
+     .seven-cart h3{
+        margin-left: 30px;
+     }
+
+     .seven-cart p{
+        width: 400px;
+        margin-left: 25px;
+        
+     }
+     .h{
+    margin-left: 20px;
+    margin-top: 20px;
+     }
     
+
+     .sss h1{
+      width: 300px;
+      margin-left: -180px;
+     }
+
+     .sss h4{
+        width: 300px;
+        margin-left: -150px;
+     }
+
+
+     .eight-cart{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-left: 100px;
+     }
+
+     .bir-cart{
+        width: 200px;
+     }
+
+
+     .bir-cart h2{
+        width:400px;
+        margin-left: -480px;
+        font-size: 34px;
+     }
+
+     .bir-cart h3{
+        margin-left: -490px;
+     }
+
+
+     .on-cart{
+        display: grid;
+        grid-template-columns: 1fr;
+     }
+
+     .crt{
+        width: 340px;
+        margin-left: 20px;
+
+     }
+
+     .crt p{
+        width: 470px;
+        font-size: 13px;
+        margin-left: -150px;
+     }
+
+     .qqqq img{
+        margin-left: -140px;
+     }
+
+     .qqqq h2{
+        margin-left: -70px;
+     }
+
+     .qqqq h3{
+        margin-left: -60px;
+     }
+
+     .ppx h2{
+        font-size: 40px;
+        
+     }
+
+
+
+    .on-ikki-cart{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+
+    .kino{
+        margin-left: 20px;
+    }
+    .kino img{
+    width: 150px;
+    }
+
+    .kino h2{
+        width: 150px;
+        font-size: 10px;
+    }
+
+    .kino p{
+        width: 160px;
+        font-size: 10px;
+    }
+
+    .cartt input{
+        width: 140px;
+        margin-left: -390px;
+    }
+
+    .cartt h3{
+        width:600px;
+        margin-left: -320px;
+       
+    }
+
+    .cartt button{
+        width: 120px;
+        margin-left: -250px;
+    }
+
+    .cartt h1{
+        width: 900px;
+        margin-left: -430px;
+        font-size: 23px;
+    }
+
+
+    .smd img{
+        width: 100px;
+        padding-top: 40px;
+    }
+
 }

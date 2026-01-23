@@ -7,11 +7,18 @@
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="./blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav> 
+            <ul class="logos">
+                <h1>CreateX</h1>
+            </ul>
             <ul>
                 <li>
                     <h1 href="/">Create</h1>
@@ -39,6 +46,16 @@
                 <li>
                     <h2><a href="../signin.html">Log In</a> / <a href="../signup.html">Register</a></h2>
                 </li>
+            </ul>
+            <ul class="menus">
+                <button onclick="aaa.hidden ^= 1"> <i class="fa-solid fa-bars"></i>
+                </button>
+                <ul id="aaa">
+                    <li>html</li>
+                    <li>css</li>
+                    <li>js</li>
+                    <li>react</li>
+                </ul>
             </ul>
         </nav>
     </header>
@@ -301,7 +318,7 @@
 
         </div>
     </footer>
-     <script src="./email.js"></script>
+    <script src="./email.js"></script>
 </body>
 
 </html>
