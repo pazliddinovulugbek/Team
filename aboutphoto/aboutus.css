@@ -527,3 +527,337 @@ small {
   color: #60a5fa;
   text-decoration: none;
 }
+@media (max-width: 400px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 12px;
+  }
+
+  main > section:nth-child(1) {
+    width: 100%;
+    order: 1;
+    padding: 0;
+  }
+
+  main > section:nth-child(1) h1 {
+    font-size: 28px;
+    line-height: 1.15;
+  }
+
+  main > section:nth-child(2) {
+    width: 100%;
+    order: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+
+  main > section:nth-child(2) img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    display: block;
+  }
+
+  .img {
+    flex-direction: column;
+    gap: 12px;
+    padding: 0 12px;
+  }
+
+  .img .img_one img {
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .img .img_two {
+    width: 100%;
+    text-align: left;
+    margin-top: 12px;
+  }
+
+  .img .img_two h3 span {
+    font-size: 32px;
+  }
+
+  .text_head {
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    padding: 0 12px;
+    width: 100%;
+  }
+
+  .text_head > * {
+    width: 100%;
+    max-width: 360px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 12px 0;
+  }
+
+  .text_head img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+  }
+
+  .text_head h3 {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .text_head p {
+    font-size: 12px;
+    line-height: 1.4;
+    margin-top: 8px;
+  }
+
+  .what-we-teach,
+  .our-main-directions {
+    padding: 18px 12px;
+    text-align: center;
+  }
+
+  .what-we-teach h1,
+  .our-main-directions h1 {
+    font-size: 26px;
+    margin: 8px auto 18px;
+  }
+
+  .cards-grid,
+  .courses-grid,
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 0 12px 24px;
+  }
+
+  .card,
+  .course-card {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+  }
+
+  .card img,
+  .course-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .card .card-body,
+  .course-card .card-body {
+    padding: 12px;
+  }
+
+  .card .tag,
+  .course-card .tag {
+    display: inline-block;
+    padding: 6px 10px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+
+  .card h2,
+  .course-card h2 {
+    font-size: 16px;
+    margin: 6px 0;
+  }
+
+  .card p,
+  .course-card p {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #6b7280;
+  }
+
+  .card .check-courses,
+  .course-card .check-courses {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: #ff3f3a;
+    margin-top: 10px;
+  }
+
+  .cards-grid .placeholder {
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9ca3af;
+    background: #f3f4f6;
+    border-radius: 8px;
+  }
+
+  .rasm {
+    display: flex;
+    justify-content: center;
+    padding: 12px 8px;
+    margin-top: 24px;
+  }
+  .rasm img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+  }
+  main {
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    gap: 14px;
+  }
+  .img {
+    flex-direction: column;
+    gap: 12px;
+    padding: 0 12px;
+  }
+  .img .img_one img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+  }
+  .img .img_two h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .text_head {
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 12px;
+  }
+  .container {
+    flex-direction: column;
+    padding: 12px;
+    gap: 14px;
+  }
+  .podcast {
+    flex-direction: column;
+    gap: 12px;
+    padding: 0 12px;
+  }
+  .asosiy, .one_1, .one_2 {
+    flex-direction: column;
+    gap: 12px;
+    padding: 0 12px;
+  }
+  nav {
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px 12px;
+    height: auto;
+  }
+  nav ul:nth-child(1) {
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  nav ul:nth-child(2) li button {
+    width: 160px;
+    height: 44px;
+    font-size: 14px;
+  }
+  .miss h1 {
+    font-size: 28px;
+    width: auto;
+    padding: 0 12px;
+  }
+  .miss .input {
+    flex-direction: column;
+    gap: 12px;
+    padding: 0 12px;
+  }
+  .miss .input input {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+  }
+  .container .h1 {
+    width: 100%;
+    padding-left: 32px;
+    position: relative;
+    box-sizing: border-box;
+  }
+  .container .h1::before {
+    content: "";
+    position: absolute;
+    left: 16px;
+    top: 88px;
+    bottom: 88px;
+    width: 2px;
+    background: #e6e6e6;
+  }
+  .container .h1 h4 {
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+  .container .h1 h1 {
+    font-size: 28px;
+    line-height: 1.2;
+    margin-top: 6px;
+    margin-bottom: 18px;
+    text-align: left;
+  }
+  .container .h1 h5 {
+    font-size: 11px;
+    margin-top: 18px;
+    margin-bottom: 6px;
+    position: relative;
+    padding-left: 18px;
+    color: #1e293b;
+    font-weight: 700;
+  }
+  .container .h1 h5::before {
+    content: "";
+    position: absolute;
+    left: -8px;
+    top: 8px;
+    width: 8px;
+    height: 8px;
+    background: #ff3f3a;
+    border-radius: 50%;
+  }
+  .container .h1 h2 {
+    font-size: 16px;
+    margin: 0 0 8px 0;
+  }
+  .container .h1 p {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #6b7280;
+    width: 100%;
+    max-width: 360px;
+    margin-bottom: 6px;
+  }
+  .container img {
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+  }
+}
